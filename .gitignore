@@ -1,0 +1,94 @@
+# Ignore configuration files that may contain sensitive information. 
+
+sites/*/*settings*.php
+sites/*/civicrm.settings.php
+wp-config.php
+ 
+ 
+# Ignore paths that contain generated content. #
+################################################
+cache/
+files/
+sites/*/files
+sites/*/private
+sites/*/public
+sites/*/*/private
+sites/*/*/public
+
+wp-content/backup-db
+wp-content/backups
+wp-content/cache
+wp-content/upgrade
+wp-content/uploads
+wp-content/cache
+wp-content/cache/supercache
+wp-snapshots/tmp
+
+
+# Logs and databases #
+######################
+
+*.log
+*.sql
+*.sqlite
+
+
+# Ignore default text files #
+#############################
+.htaccess
+.robots.txt
+sitemap.xml
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+*.swp
+.AppleDouble
+.LSOverride
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# VCS files #
+#############
+.gitattributes
+
+
+# IDE files #
+#############
+.csslintrc
+.editorconfig
+.eslintignore
+.eslintrc.json
+.sublime-project
+.sublime-workspace
+.komodoproject
+.idea
+.project
+.metadata
+.settings
+.buildpath
